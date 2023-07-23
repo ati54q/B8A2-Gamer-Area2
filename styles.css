@@ -9,18 +9,21 @@ header{
 }
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between ;
 }
 
 nav > h3{
-    text-align: center;
+   
     font-family: Work Sans;
     font-size: 35px;
+    margin-right: 500px;
+    
    
 }
 nav > img{
     margin-left: 150px;
     height: 30px;
+    margin-top: 30px;
 }
 ul{
     list-style: none;
@@ -28,4 +31,23 @@ ul{
     margin: 30px;
     padding-right: 200px;
     gap: 20px;
+     
+}
+
+/* section 2  start*/
+
+.goat  {
+    display: flex;
+    justify-content: space-between;
+}
+
+.group-img >img {
+    width: 500px;
+    height: 416px;
+    margin-right: 200px;
+}
+
+.play{
+    margin-top: 100px;
+    margin-left: 200px;
 }
