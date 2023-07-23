@@ -63,3 +63,58 @@ ul{
   display: flex;
   justify-content: space-between;
 }
+
+/* section 4 start */
+
+.play-no {
+display: flex;
+justify-content: space-between;
+
+}
+
+/* section 5 start*/
+.action{
+    height: 400px;
+    margin-top: 100px;
+}
+.game{
+    display: flex;
+    margin-left: 100px;
+}
+
+/* Footer section start */
+
+.footer-one{
+
+    height: 400px;
+    background-color: #0B0223;;
+}
+
+.game-two {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+
+}
+
+.fram{
+
+ 
+    display: flex;
+    justify-content: center;
+   padding-top: 80px;
+   text-align: center;
+}
+
+.fram >img{
+
+    height: 35px;
+}
+
+.story ul > li{
+    color: white;
+    
+}
+.story >ul{
+   justify-content: center;
+}
