@@ -106,7 +106,50 @@ font-weight: 500;
 .play-no {
 display: flex;
 justify-content: space-between;
+}
 
+.play-yes{
+    margin-top:150px;
+    text-align: center;
+    margin-left: 300px;
+}
+
+.play-yes >h2{
+    text-align: right;
+font-family: Work Sans;
+font-size: 34px;
+}
+
+
+.play-yes >h2 >span {
+    color: #F948B2;
+}
+
+
+.overlap {
+position: relative;
+margin-top: -200px;
+margin-left: -100px;
+}
+
+.overlap-one {
+
+    
+     }
+
+.overlap-two
+{
+margin-right: 150px;
+height: 550px;
+width: 500px;
+margin-top: 50px;
+}
+
+.overlap-three{
+
+    height: 250px;
+    width: 220px;
+    
 }
 
 /* section 5 start*/
