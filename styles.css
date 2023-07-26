@@ -34,6 +34,30 @@ ul{
      
 }
 
+.follow{
+    border-radius: 4px;
+    background: rgba(11, 2, 35, 0.10);
+    padding: 3px;
+    text-align: center;
+    margin-top: -10px;
+    
+}
+ .youtube{
+    height: 15px;
+    width: 15px;
+    padding-top: 5px;
+
+ }
+
+ /* responsive media quiries  */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+    header{
+        padding: 20px;
+    }
+}
+
+
 /* section 2  start*/
 
 .goat  {
@@ -41,6 +65,32 @@ ul{
     justify-content: space-between;
    
 }
+
+.online h2{
+    color: #0B0223;
+font-family: Work Sans;
+font-size: 30px;
+}
+
+.funny {
+    color:#F948B2;
+}
+
+.download{
+
+    margin-right: 50px;
+    margin-left: 50px;
+    gap: 20px;
+}
+
+.download > img
+
+{
+height: 400px;
+width: 300px;
+
+}
+
 
 .group-img >img {
     width: 500px;
@@ -164,6 +214,14 @@ margin-top: 50px;
     margin-left: 100px;
     justify-content: center;
     gap: 20px;
+    cursor: pointer;
+}
+
+.atio:hover {
+background-color: red;
+box-shadow: #F948B2;
+border-radius: 50px;
+padding: 15px 15px;
 }
 
 .action-two
@@ -173,6 +231,7 @@ display: flex;
 justify-content: center;
 margin-top: 80px;
 gap: 20px;
+cursor: pointer;
 
 }
 
