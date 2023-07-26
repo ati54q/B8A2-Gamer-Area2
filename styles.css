@@ -52,11 +52,33 @@ ul{
  /* responsive media quiries  */
 /* mobile devices */
 @media screen and (max-width: 576px) {
-    header{
-        padding: 20px;
-    }
+    
+header{
+    margin-bottom: 120px;
 }
+        nav {
+         flex-direction: column;
 
+        }
+
+        nav > img{
+            margin-left: ;
+            height: 25px;
+           width: 25px;
+    }
+
+    .about{
+        flex-direction: column;
+        
+    }
+  
+    nav > h3 {
+margin-left: 50px;
+
+
+    }
+
+}
 
 /* section 2  start*/
 
@@ -139,6 +161,17 @@ font-weight: 500;
     padding: 12px;
 
 }
+
+ /* responsive media quiries  */
+/* mobile devices */
+@media screen and (max-width: 576px) {    
+       .goat {
+         flex-direction: column;
+        }
+    }
+
+
+
 /* section 3 start */
 
 .online{
@@ -150,6 +183,18 @@ font-weight: 500;
   display: flex;
   justify-content: space-between;
 }
+
+ /* responsive media quiries  */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+              
+     .download
+     {
+            flex-direction: column;
+
+        }
+        
+    }
 
 /* section 4 start */
 
@@ -177,15 +222,11 @@ font-size: 34px;
 
 
 .overlap {
-position: relative;
+
 margin-top: -200px;
 margin-left: -100px;
 }
 
-.overlap-one {
-
-    
-     }
 
 .overlap-two
 {
@@ -201,6 +242,27 @@ margin-top: 50px;
     width: 220px;
     
 }
+
+ /* responsive media quiries  */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+              
+    .play-no
+    {
+           flex-direction: column;
+
+       }
+
+       .play-yes{
+       
+        text-align: left;
+        margin-right: 150px;
+      
+    }
+}
+
+
+
 
 /* section 5 start*/
 
