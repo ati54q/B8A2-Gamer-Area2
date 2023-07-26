@@ -73,6 +73,8 @@ justify-content: space-between;
 }
 
 /* section 5 start*/
+
+
 .action{
     height: 400px;
     margin-top: 100px;
@@ -80,7 +82,20 @@ justify-content: space-between;
 .game{
     display: flex;
     margin-left: 100px;
+    justify-content: center;
+    gap: 20px;
 }
+
+.action-two
+
+{
+display: flex;
+justify-content: center;
+margin-top: 80px;
+gap: 20px;
+
+}
+
 
 /* Footer section start */
 
@@ -117,4 +132,44 @@ justify-content: space-between;
 }
 .story >ul{
    justify-content: center;
+}
+
+.para >ul{
+    justify-content: center;
+     padding: 10px;
+    gap: 60px;
+}
+
+.para > ul> li {
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+   
+}
+
+.para-footer{
+    color: rgba(255, 255, 255, 0.60);
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 16px;
+    justify-content: center;
+}
+
+.icon-all >img
+{
+
+height: 30px;
+width: 30px;
+gap: 30px;
+color: white;
+padding-left: 30px;
+
+
+
+}
+
+.icon-all{
+    justify-content: center;
+    margin-left: 490px;
 }
