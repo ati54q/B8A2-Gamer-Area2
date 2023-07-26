@@ -39,6 +39,7 @@ ul{
 .goat  {
     display: flex;
     justify-content: space-between;
+   
 }
 
 .group-img >img {
@@ -51,7 +52,43 @@ ul{
     margin-top: 100px;
     margin-left: 200px;
 }
+.play > h2{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 48px;
+    
+    font-weight: 600;}
 
+ .play >h3 {
+        text-align: center;
+color: #F948B2;
+font-size: 60px;
+font-weight: 500;
+
+ }
+.sign {
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #F948B2;
+    border-radius: 48px;
+    border: none;
+    padding: 12px;
+}
+ 
+.Rogue{
+    color: #FFF;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #4EC5F7;
+    border-radius: 48px;
+    border: none;
+    padding: 12px;
+
+}
 /* section 3 start */
 
 .online{
